@@ -1,0 +1,4 @@
+repository "cornTesting@vicky6235733@cloud"
+  path "/"
+    br "/main"
+    co "/main"
