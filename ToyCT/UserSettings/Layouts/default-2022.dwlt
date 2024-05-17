@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1520
     height: 756.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 101
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Testing/TestScript
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -519,16 +519,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Testing/TestScript
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ASUS\Desktop\ToyCT
+  m_LastProjectPath: C:\Users\ASUS\Documents\GitHub\114Assets\114Assets\ToyCT
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 18.200012}
-    m_SelectedIDs: 1c750000
-    m_LastClickedID: 29980
-    m_ExpandedIDs: 00000000287300002a7300002c7300002e7300003073000000ca9a3b
+    scrollPos: {x: 0, y: 290.2}
+    m_SelectedIDs: c4720000
+    m_LastClickedID: 29380
+    m_ExpandedIDs: 00000000c4720000c6720000c8720000ca720000cc72000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -556,7 +556,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000287300002a7300002c7300002e73000030730000
+    m_ExpandedIDs: 00000000c4720000c6720000c8720000ca720000cc720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1133,9 +1133,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -119.958115, y: 201.26292, z: 13.455963}
+    m_Target: {x: -121.1, y: 158.3, z: -3.1203558}
     speed: 2
-    m_Value: {x: -119.958115, y: 201.26292, z: 13.455963}
+    m_Value: {x: -121.1, y: 158.30013, z: -3.120354}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1181,13 +1181,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0633492, y: 0.71081656, z: -0.063802585, w: 0.69807225}
+    m_Target: {x: -0.014694805, y: 0.71684796, z: 0.015844477, w: 0.69735}
     speed: 2
-    m_Value: {x: 0.06332865, y: 0.710586, z: -0.06378189, w: 0.6978458}
+    m_Value: {x: 0.0633492, y: 0.7108166, z: -0.063802585, w: 0.69807225}
   m_Size:
-    m_Target: 47.617954
+    m_Target: 23.0786
     speed: 2
-    m_Value: 47.617954
+    m_Value: 22.084785
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1250,8 +1250,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1a6f0000
-      m_LastClickedID: 28442
+      m_SelectedIDs: f66d0000
+      m_LastClickedID: 28150
       m_ExpandedIDs: 10fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
