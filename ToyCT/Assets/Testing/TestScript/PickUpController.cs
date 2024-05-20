@@ -50,6 +50,10 @@ public class PickUpController : MonoBehaviour
             Drop();
             print("droped!");
         }
+        if(equipped){
+            transform.position=player.transform.position+new Vector3(30f,30f,0);
+            transform.rotation=player.transform.rotation;
+        }
     }
 
     private void PickUp()
@@ -58,10 +62,11 @@ public class PickUpController : MonoBehaviour
         slotFull = true;
 
         //將方塊設為container的子物件
-        transform.SetParent(Container);
-        transform.localPosition = Vector3.zero+ new Vector3(0,2f,1f);
-        transform.localRotation = Quaternion.Euler(Vector3.zero);
-        transform.localScale = Vector3.one;
+        //transform.SetParent(Container);
+        //transform.localPosition = Vector3.zero+ new Vector3(0,2f,1f);
+        transform.localRotation = Quaternion.Euler(player.transform.position);//Quaternion.Euler(Vector3.zero);
+        //transform.localScale = Vector3.one;
+
 
         //啟用動力學
         rb.isKinematic = true;
